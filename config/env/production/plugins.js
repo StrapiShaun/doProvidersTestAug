@@ -7,7 +7,7 @@ upload: {
         secretAccessKey: env('DO_SPACE_SECRET_KEY'),
         endpoint: env('DO_SPACE_ENDPOINT'),
         params: {
-          Bucket: 'https://doproviderstestaug',
+          Bucket: env('DO_SPACE_BUCKET'),
         },
       },
       actionOptions: {
