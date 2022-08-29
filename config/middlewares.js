@@ -26,16 +26,7 @@ module.exports = [
     },
   },
   },
-  {
-    name: 'strapi::cors',
-    config: {
-      origin: ['*.digitaloceanspaces.com', 'dolphin-app-s4wgb.ondigitalocean.app' ],
-      methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
-      headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
-      keepHeaderOnError: true,
-    },
-  },
-  
+  'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
   'strapi::query',
