@@ -29,7 +29,7 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['*.digitalocean.com'],
+      origin: ['*.digitalocean.com', 'dolphin-app-s4wgb.ondigitalocean.app' ],
       methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'HEAD', 'OPTIONS'],
       headers: ['Content-Type', 'Authorization', 'Origin', 'Accept'],
       keepHeaderOnError: true,
